@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt 360</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #ebebeb;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .text-secondary {
+            color: #7c7c7c !important;
+        }
+
+        .card-item {
+            border-radius: 1rem;
+            box-shadow: 0px 0px 10px #ffffff;
+        }
+        /* #303030 */
+        .voting-section {
+            border-radius: 1rem;
+            background-color: #894dff;
+            box-shadow: 0px 0px 4px #894dff;
+        }
+
+        .welcome-section {
+            font-size: 1.4rem;
+            margin: 3rem 2rem 2rem 2rem;
+        }
+
+        .time-section {
+            background-color: #894dff;
+            font-size: 0.9rem;
+            margin-left: 2rem;
+            width: fit-content;
+            border-radius: 1rem;
+            padding: 1px 15px;
+            vertical-align: center;
+            box-shadow: 0px 0px 4px #894dff;
+        }
+
+        .icon {
+            width: 1.9rem;
+            height: 1.9rem;
+            color: #894dff;
+        }
+
+        .item-description {
+            font-size: 0.75rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <span style="font-weight: 600; color: #894dff;">Olá, pessoal!</span><br>
+        <span>Prontos para começar?</span>
+    </section>
+
+    <!-- Time Section -->
+    <section class="time-section my-4">
+        <div class="text-white d-flex align-items-center">
+            <div style="font-weight: 600;">05:00</div>
+            <div style="font-size: 0.75rem;" class="ms-2">Prompts</div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="p-4">
+        <!-- Laboratory Card -->
+        <div class="bg-white w-100 d-flex p-4 align-items-center mb-3 card-item">
+            <i data-lucide="message-square-code" class="icon"></i>
+            <div class="ms-3 item-description">
+                <span style="font-weight: 600; font-size: 0.85rem !important; color:#894dff">Laboratório de Prompts<br></span>
+                <span class="text-secondary">Teste, refine e melhore seu prompt</span>
+            </div>
+        </div>
+
+        <!-- Register Card -->
+        <div class="bg-white w-100 d-flex p-4 align-items-center my-3 card-item">
+            <i data-lucide="save" class="icon"></i>
+            <div class="ms-3 item-description">
+                <span style="font-weight: 600; font-size: 0.85rem !important; color:#894dff">Cadastrar Solução Final<br></span>
+                <span class="text-secondary">Salve o prompt definido pelo grupo</span>
+            </div>
+        </div>
+
+        <!-- Voting Section -->
+        <div class="w-100 py-2 my-4 voting-section">
+            <div class="text-center text-white">
+                <span style="font-weight: 600;">Votação</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
